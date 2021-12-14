@@ -2,5 +2,5 @@ version="0.1"
 tags={
 	"Historical"
 }
-name="Vatican City Mod"
+name="Catholic Church Mod"
 supported_version="1.11.*"
