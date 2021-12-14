@@ -1,0 +1,27 @@
+﻿division_template = {
+	name = "Holy Guard"		
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
+
+units = { 
+division = {
+		name = "Holy Guard"
+		location = 13236
+		division_template = "Holy Guard"
+		start_experience_factor = 0.3
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "VAT"
+		}
+		requested_factories = 1
+		progress = 0.75
+		efficiency = 100
+	}
+}

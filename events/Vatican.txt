@@ -1,0 +1,76 @@
+add_namespace = vatican
+# Pius XI Dies
+country_event = {
+	id = vatican.1
+	title = "Pius XI Passes Away"
+	desc = "Reports have come in that Pope Pius XI has died of a heart attack at 4 AM, his third one recently. He is expected to be buried at the crypt of St. Peter's Basilica shortly. A new pope will be decided on, but that is up to the College of Cardinals."
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		date > 1939.02.09
+	}
+	mean_time_to_happen = {
+	days = 0
+	}
+	
+	option = {
+		name = "Requiescat in pace"
+		create_country_leader = {
+			name = "College of Cardinals"
+			picture = "/gfx/leaders/VAT/college_of_cardinals.dds"
+			expire = "1956.1.1"
+			ideology = despotism
+		}
+		create_country_leader = {
+			name = "College of Cardinals"
+			picture = "/gfx/leaders/VAT/college_of_cardinals.dds"
+			expire = "1956.1.1"
+			ideology = conservatism
+		}
+		create_country_leader = {
+			name = "College of Cardinals"
+			picture = "/gfx/leaders/VAT/college_of_cardinals.dds"
+			expire = "1956.1.1"
+			ideology = falangism
+		}
+	}
+}
+country_event = {
+	id = vatican.2
+	title = "Pius XII Assumes the Papacy"
+	desc = "After weeks of delibration, the College of Cardinals has elected Camerlengo Euginio Pacelli as Pope. He has assumed the pontificate as Pope Pius XII, and has already gotten to work."
+	picture = GFX_report_event_german_troops
+
+	is_triggered_only = no
+	fire_only_once = yes
+	trigger = {
+		date > 1939.03.08
+	}
+	mean_time_to_happen = {
+	days = 0
+	}
+	
+	option = {
+		name = "Opus Justitiae Pax"
+			create_country_leader = {
+				name = "Pius XII"
+				picture = "/gfx/leaders/VAT/PiusXII.dds"
+				expire = "1958.10.9"
+				ideology = despotism
+		}
+			create_country_leader = {
+				name s= "Pius XII"
+				picture = "/gfx/leaders/VAT/PiusXII.dds"
+				expire = "1958.10.9"
+				ideology = conservatism
+		}
+			create_country_leader = {
+				name = "Pius XII"
+				picture = "/gfx/leaders/VAT/PiusXII.dds"
+				expire = "1958.10.9"
+				ideology = falangism
+		}
+	}
+}
