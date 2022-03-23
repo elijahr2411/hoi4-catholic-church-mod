@@ -7,7 +7,7 @@ set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	early_fighter = 1
 	basic_train = 1
@@ -20,18 +20,18 @@ set_stability = 0.9
 
 	add_political_power = 1198
 	add_command_power = 100
-	
-	
+
+
 	oob = "VAT"
 	set_technology = {
 		tech_recon = 1
 		fighter1 = 1
 		interwar_artillery = 1
 		interwar_antiair = 1
-		
+
 		#doctrines
 		air_superiority = 1
-		
+
 		trench_warfare = 1
 
 		#electronics
@@ -59,20 +59,20 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-set_party_name = { 
-    ideology = neutrality 
-    long_name = "The Holy See" 
-    name = "The Holy See" 
+set_party_name = {
+    ideology = neutrality
+    long_name = "The Holy See"
+    name = "The Holy See"
 }
-set_party_name = { 
-    ideology = democratic 
-    long_name = "The Holy See" 
-    name = "The Holy See" 
+set_party_name = {
+    ideology = democratic
+    long_name = "The Holy See"
+    name = "The Holy See"
 }
-set_party_name = { 
-    ideology = fascism 
-    long_name = "The Holy See" 
-    name = "The Holy See" 
+set_party_name = {
+    ideology = fascism
+    long_name = "The Holy See"
+    name = "The Holy See"
 }
 create_country_leader = {
 	name = "Pius XI"
@@ -80,7 +80,7 @@ create_country_leader = {
 	expire = "1939.2.10"
 	ideology = despotism
 	traits = {
-		
+
 	}
 }
 create_country_leader = {
@@ -89,7 +89,7 @@ create_country_leader = {
 	expire = "1939.2.10"
 	ideology = falangism
 	traits = {
-		
+
 	}
 }
 create_country_leader = {
@@ -98,7 +98,7 @@ create_country_leader = {
 	expire = "1939.2.10"
 	ideology = conservatism
 	traits = {
-		
+
 	}
 }
 1939.1.1 = {
@@ -106,4 +106,22 @@ create_country_leader = {
 		ruling_party = neutrality
 		elections_allowed = no
 	}
+	create_country_leader = {
+		name = "Pius XII"
+		picture = "/gfx/leaders/VAT/PiusXII.dds"
+		expire = "1958.10.9"
+		ideology = despotism
+}
+	create_country_leader = {
+		name s= "Pius XII"
+		picture = "/gfx/leaders/VAT/PiusXII.dds"
+		expire = "1958.10.9"
+		ideology = conservatism
+}
+	create_country_leader = {
+		name = "Pius XII"
+		picture = "/gfx/leaders/VAT/PiusXII.dds"
+		expire = "1958.10.9"
+		ideology = falangism
+}
 }

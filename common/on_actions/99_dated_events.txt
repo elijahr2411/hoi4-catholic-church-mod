@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+            effect = {
+                    VAT = {
+                        country_event = { id = vatican.1 days = 1136 }
+                    }
+            }
+    }
+}
