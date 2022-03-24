@@ -59,7 +59,7 @@ country_event = {
 				ideology = despotism
 		}
 			create_country_leader = {
-				name s= "Pius XII"
+				name = "Pius XII"
 				picture = "/gfx/leaders/VAT/PiusXII.dds"
 				expire = "1958.10.9"
 				ideology = conservatism
