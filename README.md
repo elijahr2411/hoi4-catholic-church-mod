@@ -1,4 +1,9 @@
 # The Catholic Church Mod
+
+## UPDATE:
+
+**This mod is now a part of [OEGS Collection](https://github.com/itzdxnnyyyyy/OEGS-Git).**
+
 The base game severely downplays the influence the Catholic Church had during the interwar period. While no longer the giant powerful borderline empire it was previously, it still held significant influence over many countries, particularly Italy, Spain, and Mexico.
 
 This mod aims to fix that, by adding a playable Vatican city (that won't be boring to play) which can use focuses and decisions to influence countries, and maybe restore what it once was. (hint hint, want the papal state to come back? want to launch crusades?)
